@@ -1,0 +1,79 @@
+/* headDiv is the parent div with the images in it. Set to relative positioning */
+.headDiv {
+    background-color: #e8f9e9;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+/* set top and bottom clouds to absolute of the parent headDiv */
+.top-cloud {
+  position: absolute;
+  margin-left: -300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  margin-left: 400px;
+}
+
+/* pic made round */
+.ProfilePicture {
+    border-radius: 100%;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+}
+/* headings and subheadings given colour, positioning and styles */
+.MainHead {
+    text-align: center;
+    color: teal;
+    font-family: Times New Roman;
+}
+
+.subHead {
+  text-align: center;
+  color: teal;
+  font-style: italic;
+  font-family: Times New Roman
+}
+/* description, tables given styles */
+.Description {
+    text-align: center;
+    color: teal;
+}
+
+.table {
+  margin: auto;
+  width: 50%;
+  color: teal;
+}
+/* skills table styled to appear as not being a table with borders */
+.borderless td, .borderless th {
+    border: none;
+}
+
+/* had fun with this and made it visually appealing */
+hr {
+    border-width: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    width: 5%;
+}
+/* navbar styled top right buttons */
+.nav {
+    justify-content: center;
+    align-content: space-around;
+    color: teal;
+}
+/* footer content given same background colour as top div */
+.footer {
+  background-color: #e8f9e9;
+}
+/* paragraphs and footer given same styles */
+p,
+footer {
+  text-align: center;
+  color: teal;
+}
