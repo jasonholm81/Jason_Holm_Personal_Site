@@ -3,17 +3,7 @@
     background-color: #e8f9e9;
     margin-bottom: 20px;
     text-align: center;
-    position: relative;
-}
-/* set top and bottom clouds to absolute of the parent headDiv */
-.top-cloud {
-  position: absolute;
-  margin-left: -300px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  margin-left: 400px;
+    width: 100%;
 }
 
 /* pic made round */
@@ -35,18 +25,20 @@
   text-align: center;
   color: teal;
   font-style: italic;
-  font-family: Times New Roman
+  font-family: Times New Roman;
 }
 /* description, tables given styles */
 .Description {
     text-align: center;
     color: teal;
+    font-family: Times New Roman;
 }
 
 .table {
   margin: auto;
   width: 50%;
   color: teal;
+  font-family: Times New Roman;
 }
 /* skills table styled to appear as not being a table with borders */
 .borderless td, .borderless th {
@@ -65,15 +57,18 @@ hr {
 .nav {
     justify-content: center;
     align-content: space-around;
+    font-family: Times New Roman;
     color: teal;
 }
 /* footer content given same background colour as top div */
 .footer {
   background-color: #e8f9e9;
+  font-family: Times New Roman;
 }
 /* paragraphs and footer given same styles */
 p,
 footer {
   text-align: center;
+  font-family: Times New Roman;
   color: teal;
 }
